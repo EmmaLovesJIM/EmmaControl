@@ -56,7 +56,7 @@ void BackEnd::setBreakLevel(const float breakLevel)
 
     qDebug() << "New breakLevel: " << breakLevel;
 
-    sendData(0,(quint16) breakLevel);
+    sendData(0,(quint16) (breakLevel + 1000)); // Offset + 1000
 
     m_breakLevel = breakLevel;
 }
