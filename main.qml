@@ -41,7 +41,7 @@ ApplicationWindow {
                 padding: 6
                 wheelEnabled: false
                 stepSize: 1
-                to: 51
+                to: 18
                 from: -25
                 rotation: 0
                 value: 0
